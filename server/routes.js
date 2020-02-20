@@ -5,6 +5,8 @@ import { reportsList } from "./modules/reports";
 
 const router = new express.Router();
 
+/*  Made async so nothing can hang */
+
 router.post("/slack/command/report", async (req, res) => {
   try {
     const slackReqObj = req.body;
