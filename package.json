@@ -18,7 +18,7 @@
   "homepage": "https://github.com/MatthewYee92/slackBotCPAT#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "config": "^3.2.5",
+    "config": "^3.3.8",
     "csv-write-stream": "^2.0.0",
     "express": "^4.17.1",
     "mkdirp": "^1.0.3",
